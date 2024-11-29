@@ -1,4 +1,5 @@
 import Header from "../components/base/Header";
+import BrowseTheRoom from "../components/BrowseTheRoom/BrowseTheRoom";
 import Hero from "../components/Hero";
 
 export default function HomePage() {
@@ -6,6 +7,7 @@ export default function HomePage() {
     <>
       <Header />
       <Hero />
+      <BrowseTheRoom />
     </>
   );
 }
