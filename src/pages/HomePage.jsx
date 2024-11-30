@@ -131,19 +131,64 @@ export default function HomePage() {
             />
             <div className="flex flex-col gap-10 md:flex-row md:gap-32 justify-center">
               <SideMenuGroupItem label="Overview">
-                <span>Shipping</span>
-                <span>Refund</span>
-                <span>Promotion</span>
+                <a
+                  href="#"
+                  className="hover:underline-offset-1 hover:underline"
+                >
+                  Shipping
+                </a>
+                <a
+                  href="#"
+                  className="hover:underline-offset-1 hover:underline"
+                >
+                  Refund
+                </a>
+                <a
+                  href="#"
+                  className="hover:underline-offset-1 hover:underline"
+                >
+                  Promotion
+                </a>
               </SideMenuGroupItem>
               <SideMenuGroupItem label="Company">
-                <span>About</span>
-                <span>Career</span>
-                <span>Contact Us</span>
+                <a
+                  href="#"
+                  className="hover:underline-offset-1 hover:underline"
+                >
+                  About
+                </a>
+                <a
+                  href="#"
+                  className="hover:underline-offset-1 hover:underline"
+                >
+                  Career
+                </a>
+                <a
+                  href="#"
+                  className="hover:underline-offset-1 hover:underline"
+                >
+                  Contact Us
+                </a>
               </SideMenuGroupItem>
               <SideMenuGroupItem label="Explore">
-                <span>Terms & Conds</span>
-                <span>Privacy Policy</span>
-                <span>For Developer</span>
+                <a
+                  href="#"
+                  className="hover:underline-offset-1 hover:underline"
+                >
+                  Terms & Conds
+                </a>
+                <a
+                  href="#"
+                  className="hover:underline-offset-1 hover:underline"
+                >
+                  Privacy Policy
+                </a>
+                <a
+                  href="#"
+                  className="hover:underline-offset-1 hover:underline"
+                >
+                  For Developer
+                </a>
               </SideMenuGroupItem>
               <SideMenuGroupItem label="Special Letter">
                 <div className="flex bg-gray-100 rounded-xl">
