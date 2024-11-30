@@ -3,7 +3,7 @@ import NavigationItem from "./NavigationItem";
 export default function Navigation() {
   return (
     <>
-      <ul className="flex flex-row justify-end items-center invisible w-0 md:grow  md:visible">
+      <ul className="flex flex-row justify-end items-center invisible w-0 md:grow md:visible">
         <NavigationItem title="Showcase" />
         <NavigationItem title="Catalog" />
         <NavigationItem title="Delivery" />
