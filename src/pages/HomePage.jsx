@@ -30,7 +30,7 @@ export default function HomePage() {
             Kami menyediakan furniture berkelas <br />
             yang membuat ruangan terasa homey
           </p>
-          <button className="md:text-lg font-medium mt-8 bg-pink-200 text-black hover:bg-black hover:text-pink-300 px-6 py-2 rounded-full">
+          <button className="md:text-lg font-medium mt-8 bg-pink-200 text-black hover:bg-black hover:text-pink-300 transition-all px-6 py-2 rounded-full">
             Explore Now
           </button>
         </div>
@@ -101,7 +101,7 @@ export default function HomePage() {
             This Summer For You
           </h3>
         </div>
-        <div className="flex flex-row gap-7 overflow-x-hidden ps-28">
+        <div className="flex flex-row gap-7 overflow-x-hidden ps-10 md:ps-28">
           <JustArrivedItem />
           <JustArrivedItem />
           <JustArrivedItem />
